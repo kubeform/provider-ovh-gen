@@ -42,6 +42,7 @@ func main() {
 		ProviderNameOriginal: "ovh",
 		ProviderData:         ovh.Provider(),
 		ProviderImportPath:   "github.com/ovh/terraform-provider-ovh/ovh",
+		ProviderConfig:       "ovh/ovh",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
